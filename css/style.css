@@ -1,0 +1,147 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#submitArea {
+  width: 70%;
+  min-height: 10%;
+  background-color: lightgrey;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em 0 1em 0;
+  border-radius: 1em;
+}
+
+#submitArea form {
+  width: 90%;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#submitArea form > p {
+  text-align: center;
+  margin: 1em 0 0.5em 0;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#submitArea form #title-input {
+  width: 90%;
+  height: 5vh;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submitArea form #body-input {
+  width: 90%;
+  height: 10vh;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#submitArea form #tweet-submit {
+  width: 40%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 0.5em;
+}
+
+#post {
+  width: 90%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  row-gap: 2vh;
+}
+
+#post article {
+  width: 100%;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+#post article h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1em 0;
+  text-align: center;
+  color: darkblue;
+}
+
+#post article h1 {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 1em 0;
+}
+
+#post article p {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 1em 0;
+}
+
+#post article .comment {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lightblue;
+  border-radius: 2em;
+}
+
+#post article .comment h2 {
+  width: 90%;
+  text-align: center;
+  padding: 0.2em 0.5em;
+  margin: 0.5em;
+}
+
+#post article .comment h1 {
+  width: 90%;
+  text-align: center;
+}
+
+#post article .comment p {
+  width: 90%;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
